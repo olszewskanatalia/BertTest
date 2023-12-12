@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python3 -m uvicorn BertSentimentAnalysis.sentiment_analyzer.api:app
